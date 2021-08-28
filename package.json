@@ -1,0 +1,20 @@
+{
+  "name": "cryptotetes",
+  "version": "1.0.0",
+  "description": "A dummy ERC20 token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Bujalance",
+  "license": "ISC",
+
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1"
+  },
+
+  "devDependencies": {
+    "truffle": "^5.4.8"
+  }
+
+}
