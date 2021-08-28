@@ -13,3 +13,12 @@ Check the Truffle solidity compiler version with:
 npx truffle version
 ```
 Set the correct Solidity compiler version if needed in the [Truffle configuration](./truffle-config.js).
+
+## Deploy the contracts locally
+In order to deploy the contract locally, first we need to spin up a local Ethereum blockchain.
+Use `Ganache` to deploy a local Ethereum blockchain on `http://localhost:7545`.
+
+Once the local blockchain is up and running, deploy the contracts to it with `Truffle`:
+```
+npx truffle migrate
+```
