@@ -1,0 +1,123 @@
+npm run deploy:ropsten       
+
+> cryptotetes@1.0.0 deploy:ropsten /home/jbu/Projects/cryptotetes
+> npx truffle migrate --network ropsten
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        10926580
+   > block timestamp:     1630254068
+   > account:             0xA98CaD5C14126157bFC37fFF7C7D424a3CB25375
+   > balance:             0.899413193
+   > gas used:            233854 (0x3917e)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000467708 ETH
+
+   -------------------------------------
+   > Total cost:         0.000467708 ETH
+
+
+2_deploy_token.js
+=================
+
+   Deploying 'CryptotetesToken'
+   ----------------------------
+   > block number:        10926582
+   > block timestamp:     1630254096
+   > account:             0xA98CaD5C14126157bFC37fFF7C7D424a3CB25375
+   > balance:             0.894826939
+   > gas used:            2265614 (0x22920e)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004531228 ETH
+
+   -------------------------------------
+   > Total cost:         0.004531228 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.004998936 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x585c63fe6133000c9d76f9fa740bf0378da07199ec63a6522d78c5829a45195d
+   > Blocks: 1            Seconds: 60
+   > contract address:    0xC1eCC6b7472ca556A435D1F6ba25AA801a060bC7
+   > block number:        10926580
+   > block timestamp:     1630254113
+   > account:             0xA98CaD5C14126157bFC37fFF7C7D424a3CB25375
+   > balance:             0.898630130998999384
+   > gas used:            250154 (0x3d12a)
+   > gas price:           5.000000004 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001250770001000616 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001250770001000616 ETH
+
+
+2_deploy_token.js
+=================
+
+   Deploying 'CryptotetesToken'
+   ----------------------------
+   > transaction hash:    0xb8809a271b77174815652d7b18f22b3b86f2f5c6f95f02d58d71916e7036722c
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x2C86704E6F49e422C83502529b81eFD69DB26e85
+   > block number:        10926582
+   > block timestamp:     1630254184
+   > account:             0xA98CaD5C14126157bFC37fFF7C7D424a3CB25375
+   > balance:             0.886512495989305276
+   > gas used:            2377614 (0x24478e)
+   > gas price:           5.000000004 gwei
+   > value sent:          0 ETH
+   > total cost:          0.011888070009510456 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.011888070009510456 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.013138840010511072 ETH
