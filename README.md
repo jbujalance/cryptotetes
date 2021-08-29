@@ -22,3 +22,9 @@ Once the local blockchain is up and running, deploy the contracts to it with `Tr
 ```
 npm run deploy:local
 ```
+
+## Test
+Test the contracts with:
+```
+npm test
+```
