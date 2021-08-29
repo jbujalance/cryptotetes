@@ -3,7 +3,7 @@
 ## Compilation
 Use Truffle to compile the contracts in [the contracts folder](./contracts):
 ```
-npx truffle compile
+npm run compile
 ```
 This will output the compiled packages in the `./build` folder.
 
@@ -20,5 +20,5 @@ Use `Ganache` to deploy a local Ethereum blockchain on `http://localhost:7545`.
 
 Once the local blockchain is up and running, deploy the contracts to it with `Truffle`:
 ```
-npx truffle migrate
+npm run deploy:local
 ```

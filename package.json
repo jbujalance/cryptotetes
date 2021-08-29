@@ -2,8 +2,10 @@
   "name": "cryptotetes",
   "version": "1.0.0",
   "description": "A dummy ERC20 token",
-  "main": "index.js",
   "scripts": {
+    "compile": "npx truffle compile",
+    "clean": "rimraf build",
+    "deploy:local": "npx trufle migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "José Bujalance",
@@ -14,6 +16,7 @@
   },
 
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "truffle": "^5.4.8"
   }
 
